@@ -16,6 +16,10 @@ header h1 {
     padding: 50px;
 }
 
+header h1 img {
+    width: 40px;
+}
+
 main {
    display: flex;
    justify-content: center;
