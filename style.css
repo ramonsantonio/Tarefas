@@ -36,11 +36,17 @@ main input {
 
 main button {
     background-color: white;
+    cursor: pointer;
     color: blueviolet;
     border-radius: 5px;
     height: 35px;
     width: 90px;
     border: 0px;
+}
+
+main button:hover {
+    background-color: blueviolet;
+    color: white;
 }
 
 footer {
