@@ -3,8 +3,11 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color: blueviolet;
-    
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, rgb(212, 180, 241), rgb(158, 80, 231), blueviolet);
 }
 
 header h1 {
