@@ -35,3 +35,13 @@ main button {
     width: 90px;
     border: 0px;
 }
+
+footer {
+    padding-top: 300px;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
