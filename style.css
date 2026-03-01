@@ -11,6 +11,8 @@ body {
     background-image: linear-gradient(to top, rgb(212, 180, 241), rgb(158, 80, 231), blueviolet);
 }
 
+/*header*/
+
 header h1 {
     color: white;
     text-align: center;
@@ -20,6 +22,8 @@ header h1 {
 header h1 img {
     width: 25px;
 }
+
+/*main*/
 
 main {
    display: flex;
@@ -50,8 +54,40 @@ main button:hover {
     color: white;
 }
 
+/*section*/
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+    background-color: rgb(174, 132, 214);
+    margin: 10px;
+    width: 600px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    cursor: pointer;
+}
+
+/* Footer*/
+
 footer {
     padding-top: 300px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
