@@ -1,5 +1,15 @@
 function adicionarTarefa() {
-    let input = document.querySelector("input").value 
+    let ValorDoInput = document.querySelector("input").value 
     
-    console.log(input)
+    let li = document.createElement("li")
+
+    li.innerHTML = ValorDoInput + "<span onclick='deletarTarefa(this)'>❌</span>"
+
+    document.querySelector("ul").appendChild(li)
+
+    document.querySelector("input").value = ""
 } 
+
+function deletarTarefa(li) {
+    li.parentElement.remove()
+}
